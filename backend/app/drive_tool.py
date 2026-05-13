@@ -1,13 +1,17 @@
 from google.oauth2 import service_account
 from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
+import os
+import json
 
 SCOPES = ["https://www.googleapis.com/auth/drive.readonly"]
 
-SERVICE_ACCOUNT_FILE = "service_account.json"
+service_account_info = json.loads(
+    os.getenv("SERVICE_ACCOUNT_JSON")
+)
 
-credentials = service_account.Credentials.from_service_account_file(
-    SERVICE_ACCOUNT_FILE,
+credentials = service_account.Credentials.from_service_account_info(
+    service_account_info,
     scopes=SCOPES
 )
 
