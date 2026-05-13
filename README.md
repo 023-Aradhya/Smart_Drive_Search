@@ -1,3 +1,12 @@
+## Live Demo
+
+Frontend:
+https://023-aradhya-smart-drive-search-frontendstreamlit-app-l98nvm.streamlit.app/
+
+Backend:
+https://smartdrivesearch-production.up.railway.app
+
+
 # Smart Drive Search
 
 A conversational AI assistant that helps users search, filter, and discover files from Google Drive using natural language.
@@ -161,8 +170,5 @@ streamlit run streamlit_app.py
 - LangGraph migration
 - Vector search support
 
----
 
-# Author
 
-Aradhya Gupta
