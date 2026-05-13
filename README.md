@@ -1,4 +1,4 @@
-# Google Drive AI Agent
+# Smart Drive Search
 
 A conversational AI assistant that helps users search, filter, and discover files from Google Drive using natural language.
 
