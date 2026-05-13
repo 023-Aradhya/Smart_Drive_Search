@@ -1,8 +1,9 @@
 import streamlit as st
 import requests
 
-API_URL = "http://127.0.0.1:8000/chat"
+# API_URL = "http://127.0.0.1:8000/chat"
 
+API_URL = "https://smartdrivesearch-production.up.railway.app/chat"
 st.set_page_config(
     page_title="Google Drive AI Agent",
     layout="centered"
