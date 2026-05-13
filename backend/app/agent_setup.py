@@ -5,7 +5,7 @@ from langchain_groq import ChatGroq
 from langchain.agents import initialize_agent, AgentType
 from langchain.memory import ConversationBufferWindowMemory
 from backend.app.agent import drive_search_tool
-from prompts import SYSTEM_PROMPT
+from backend.app.prompts import SYSTEM_PROMPT
 
 llm = ChatGroq(
     model="llama-3.1-8b-instant",
